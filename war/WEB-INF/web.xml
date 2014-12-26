@@ -8,6 +8,11 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 		<servlet-name>Liront2kproject</servlet-name>
 		<servlet-class>com.liron.javacourse.Liront2kprojectServlet</servlet-class>
 	</servlet>
+	<servlet>
+		<servlet-name>MyNewServlet</servlet-name>
+		<servlet-class>com.liron.javacourse.MyNewServlet</servlet-class>
+		
+	</servlet>	
 	<servlet-mapping>
 		<servlet-name>Liront2kproject</servlet-name>
 		<url-pattern>/liront2kproject</url-pattern>
@@ -15,4 +20,10 @@ http://java.sun.com/xml/ns/javaee/web-app_2_5.xsd" version="2.5">
 	<welcome-file-list>
 		<welcome-file>index.html</welcome-file>
 	</welcome-file-list>
+	<servlet-mapping>
+		<servlet-name>MyNewServlet</servlet-name>
+		<url-pattern>/mynewservlet</url-pattern>
+	
+	</servlet-mapping>
 </web-app>
+
